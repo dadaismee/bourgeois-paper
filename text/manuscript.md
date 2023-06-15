@@ -1,11 +1,14 @@
 ---
 title: Bourgeois equilibrium in rules-in-equilibria theory
 author: Valerii Shevchenko
-affiliation: HSE University
-abstract: 
+  affiliation: HSE University
+abstract: Abstract test
 keywords: Social ontology, evolutionary game theory
 header-includes:
   - \usepackage{pgfplots}
+documentclass: article
+geometry: [a4paper, bindingoffset=0mm, inner=20mm, outer=20mm, top=20mm, bottom=20mm]
+pagestyle: headings
 ---
 
 # Introduction
