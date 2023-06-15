@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install pandoc and utils
-        run: sudo apt install pandoc pandoc-citeproc
+        run: sudo apt install pandoc pandoc-citeproc texlive-xetex
 
       - name: create file list
         id: files_list
