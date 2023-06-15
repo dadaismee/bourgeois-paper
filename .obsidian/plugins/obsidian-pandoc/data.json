@@ -1,0 +1,15 @@
+{
+  "showCLICommands": true,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "unchanged",
+  "highDPIDiagrams": true,
+  "pandoc": "/opt/homebrew/bin/pandoc",
+  "pdflatex": "/Library/TeX/texbin/pdflatex",
+  "outputFolder": null,
+  "extraArguments": "--citeproc \n--bibliography /Users/valerii/Zotero/zotero.bib\n--csl /Users/valerii/Zotero/styles/apa.csl\n--reference-doc /Users/valerii/Obsidian/Manuscripts/style-sheet.docx",
+  "exportFrom": "md"
+}

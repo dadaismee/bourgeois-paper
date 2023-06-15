@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install pandoc and utils
+        run: sudo apt install pandoc pandoc-citeproc texlive-xetex texlive-lang-cyrillic fonts-cmu
+
+      - name: create file list
+        id: files_list
+        run: |
+          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
+          
+      - name: Compile
+        run: |
+           pandoc --pdf-engine=xelatex -V mainfont="CMU Serif" -V monofont="CMU Typewriter Text" --toc --toc-depth=2 --file-scope -o отчёт.pdf text/*.md
+          
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: Changed files
