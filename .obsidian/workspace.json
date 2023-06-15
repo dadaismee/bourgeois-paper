@@ -8,24 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e628255ffb27861b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "text/001_test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4cf8eefe92461663",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf0921f4501025a9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "text/020_ontological-dependence.md",
+                "file": "text/manuscript.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "text/020_ontological-dependence.md",
+                "file": "text/manuscript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "text/020_ontological-dependence.md",
+                "file": "text/manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "text/020_ontological-dependence.md"
+                "file": "text/manuscript.md"
               }
             }
           }
@@ -160,25 +156,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "577a23554f0d0c1b",
+  "active": "bf0921f4501025a9",
   "lastOpenFiles": [
+    "images/img.jpg",
+    "text/manuscript.md",
     "text/001_test.md",
-    "text/010_SNA-methodology.md",
+    "text/000_metadata.md",
+    "text/900_References.md",
     "text/020_ontological-dependence.md",
+    "text/010_SNA-methodology.md",
+    "отчёт.pdf",
+    "README.md",
+    "service/Template.md",
     "pandoc-crossref.1",
     "pandoc-crossref-Linux.tar.xz",
     "service/literature-notes/@tahko2015.md",
-    "text/900_References.md",
     "service/literature-notes",
-    "text/000_metadata.md",
     "@tahko2015.md",
     "service/shevchenko.bib.json",
     "images/mindmap.png",
     "images/fig 3.pdf",
-    "service/Template.md",
     "text/02_urban-networks.md",
     "text/020_theory-and-methodology.md",
-    "отчёт.pdf",
     "Новая папка"
   ]
 }
