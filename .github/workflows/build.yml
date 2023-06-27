@@ -22,7 +22,7 @@ jobs:
           
       - name: Compile
         run: |
-           pandoc --pdf-engine=xelatex --toc --toc-depth=2 --file-scope -o output.pdf text/*.md
+           pandoc --pdf-engine=xelatex --toc --toc-depth=2 --bibliography=service/zotero.bib -o output.pdf text/*.md
           
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v4.16.0
